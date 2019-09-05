@@ -1,3 +1,6 @@
+/*
+  jfGreen: #235e13
+*/
 body{
   text-align: left;
   font-family: 'Bitter';
@@ -8,15 +11,54 @@ body{
 
 h1{
   font-size: 64pt;
-  line-height: .9em;
   text-align: center;
+  line-height: .9em;
   font-weight: normal;
 }
 
 p{
-  font-size: 18pt;
+  font-size: 14pt;
   text-align: left;
   font-weight: normal;
+}
+
+a{
+  color:#000000;
+}
+
+a:hover{
+  color: #235e13;
+}
+
+.navigation{
+  float: right;
+  padding: 0px;
+  display: table;
+}
+
+.tabrow{
+  display: table-row;
+}
+
+.navbutton,.navbutton-current{
+  display: table-cell;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+.navbutton{
+  color:#000000;
+}
+
+.navbutton-current{
+  background: #000000;
+  color:#ffffff;
+}
+
+.navbutton:hover,.navbutton-current:hover{
+  color:#ffffff;
+  background: #235e13;
+  outline: 3px solid #ffffff;
 }
 
 div.header{
@@ -25,7 +67,7 @@ div.header{
 }
 
 div.content{
-  padding: 0pt 5%;
+  padding: 1px 5%;
 }
 
 div.headerbar{
