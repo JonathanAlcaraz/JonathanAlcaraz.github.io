@@ -9,16 +9,11 @@ body{
   margin: 0em auto;
 }
 
-h1{
+.title{
+  padding: .5em;
   font-size: 64pt;
   text-align: center;
   line-height: .9em;
-  font-weight: normal;
-}
-
-p{
-  font-size: 14pt;
-  text-align: left;
   font-weight: normal;
 }
 
@@ -31,19 +26,32 @@ a:hover{
 }
 
 .navigation{
-  float: right;
   padding: 0px;
-  display: table;
+  display: inline-block;
+  width:100%;
 }
 
-.tabrow{
-  display: table-row;
+.sitename{
+  float: left;
+  display:inline-block;
+}
+
+.buttons{
+  float: right;
+  display: inline-block;
+}
+
+.name{
+  font-size: 1.2em;
+  padding: .5em 15px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .navbutton,.navbutton-current{
-  display: table-cell;
-  padding: 5px 15px;
+  padding: .5em 15px;
   text-decoration: none;
+  display: inline-block;
 }
 
 .navbutton{
@@ -62,12 +70,17 @@ a:hover{
 }
 
 div.header{
-  padding: 10pt 3%;
-/*  outline: 2px solid #000000;*/
+  padding: 10px 20px;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.content{
-  padding: 1px 5%;
+  padding: 0px 3%;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.headerbar{
