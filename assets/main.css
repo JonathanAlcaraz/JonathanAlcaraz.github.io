@@ -81,6 +81,24 @@ div.content{
   max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
+  display: block
+}
+
+.content-left{
+  display: inline-block;
+  float: left;
+  width: 48%;
+}
+
+.content-right{
+  display: inline-block;
+  float: right;
+  width: 48%;
+}
+
+.largelog{
+  width: 50%;
+  align: center;
 }
 
 div.headerbar{
