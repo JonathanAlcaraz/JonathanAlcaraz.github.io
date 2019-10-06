@@ -25,6 +25,14 @@ a:hover{
   color: #235e13;
 }
 
+h2{
+  display: block;
+  font-size: 1.5em;
+  font-weight: normal;
+  color: #235e13;
+
+}
+
 .navigation{
   padding: 0px;
   display: inline-block;
@@ -41,11 +49,8 @@ a:hover{
   display: inline-block;
 }
 
-.name{
-  font-size: 1.2em;
-  padding: .5em 15px;
-  text-decoration: none;
-  display: inline-block;
+.center{
+  text-align: center;
 }
 
 .navbutton,.navbutton-current{
@@ -76,32 +81,35 @@ div.header{
   margin-right: auto;
 }
 
+div.headerbar{
+  background: #235e13;
+  height: 8pt;
+}
+
 div.content{
-  padding: 0px 3%;
-  max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
   display: block
 }
 
-.content-left{
-  display: inline-block;
-  float: left;
-  width: 48%;
+.contentblockReg, .contentblockEmph1, .contentblockEmph2{
+  display: block;
+  width: 100%;
 }
 
-.content-right{
+.content2left, .content2right{
   display: inline-block;
-  float: right;
-  width: 48%;
+  width: 49%;
+  min-width: 400px;
+  vertical-align: text-top;
+}
+
+.content2left{
+}
+
+.content2right{
 }
 
 .largelog{
-  width: 50%;
-  align: center;
-}
-
-div.headerbar{
-  background: #235e13;
-  height: 8pt;
+  width: 80%;
 }
