@@ -15,6 +15,7 @@ body{
   text-align: center;
   line-height: .9em;
   font-weight: normal;
+  display: block;
 }
 
 a{
@@ -26,22 +27,24 @@ a:hover{
 }
 
 h2{
-  display: block;
+  display: inline-block;
+  padding: 0px 0px 0.75em 0px;
+  margin: 0px;
   font-size: 1.5em;
   font-weight: normal;
   color: #235e13;
+}
 
+p{
+  padding: 0px 0px 0.5em 0px;;
+  margin: 0px;
 }
 
 .navigation{
   padding: 0px;
-  display: inline-block;
-  width:100%;
-}
-
-.sitename{
-  float: left;
-  display:inline-block;
+  display: block;
+  height: auto;
+  overflow: auto;
 }
 
 .buttons{
@@ -87,27 +90,34 @@ div.headerbar{
 }
 
 div.content{
-  margin-left: auto;
-  margin-right: auto;
-  display: block
-}
-
-.contentblockReg, .contentblockEmph1, .contentblockEmph2{
   display: block;
   width: 100%;
 }
 
-.content2left, .content2right{
-  display: inline-block;
-  width: 49%;
+.contentstyleReg, .contentstyleEmph1, .contentstyleEmph2{
+  display: block;
+  width: 100%;
+}
+
+.contentblock {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.twocolLeft, .twocolRight{
+  display: flex;
+  flex: 50%;
   min-width: 400px;
   vertical-align: text-top;
 }
 
-.content2left{
-}
-
-.content2right{
+.innermost{
+  display: inline-block;
+  padding: 20px 10px;
 }
 
 .largelog{
