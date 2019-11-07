@@ -9,6 +9,10 @@ body{
   margin: 0em auto;
 }
 
+.footer{
+  min-height: 1em;
+}
+
 .title{
   padding: .5em;
   font-size: 64pt;
@@ -36,7 +40,7 @@ h2{
 }
 
 p{
-  padding: 0px 0px 0.5em 0px;;
+  padding: 0px 0px 0.5em 0px;
   margin: 0px;
 }
 
@@ -84,12 +88,12 @@ div.header{
   margin-right: auto;
 }
 
-div.headerbar{
+.headerbar{
   background: #235e13;
   height: 8pt;
 }
 
-div.content{
+.content{
   display: block;
   width: 100%;
 }
@@ -97,6 +101,11 @@ div.content{
 .contentstyleReg, .contentstyleEmph1, .contentstyleEmph2{
   display: block;
   width: 100%;
+}
+
+.contentstyleEmph2{
+  background: #235e13;
+  color: #ffffff;
 }
 
 .contentblock {
@@ -108,7 +117,15 @@ div.content{
   margin-right: auto;
 }
 
-.twocolLeft, .twocolRight{
+.onecol{
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.twocol, .twocol{
   display: flex;
   flex: 50%;
   min-width: 400px;
@@ -118,6 +135,20 @@ div.content{
 .innermost{
   display: inline-block;
   padding: 20px 10px;
+  width: 100%;
+}
+
+.quote{
+  font-size: 32pt;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.attribution{
+  font-size: 18pt;
+  text-align: center;
+  padding: 15px 0px;
+  line-height: 1em;
 }
 
 .largelog{
