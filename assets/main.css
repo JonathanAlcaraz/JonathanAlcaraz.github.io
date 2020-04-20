@@ -113,6 +113,11 @@ div.header{
   width: 100%;
 }
 
+.conterstyleEmph1{
+  background: #f0f0f0;
+  color: #235e13;
+}
+
 .contentstyleEmph2{
   background: #235e13;
   color: #ffffff;
