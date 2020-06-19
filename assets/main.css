@@ -53,14 +53,10 @@ li{
 
 .navigation{
   padding: 0px;
-  display: block;
+  display: flex;
+  flex-direction: row-reverse;
   height: auto;
   overflow: auto;
-}
-
-.buttons{
-  float: right;
-  display: inline-block;
 }
 
 .center{
@@ -85,7 +81,8 @@ li{
 .navbutton:hover,.navbutton-current:hover{
   color:#ffffff;
   background: var(--jfGreen);
-  outline: 3px solid #ffffff;
+  text-decoration: none;
+  outline: 5px solid #ffffff;
 }
 
 div.header{
