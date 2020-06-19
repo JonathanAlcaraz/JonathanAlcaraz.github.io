@@ -1,6 +1,7 @@
-/*
-  jfGreen: #235e13
-*/
+:root{
+  --jfGreen: #235e13;
+}
+
 body{
   text-align: left;
   font-family: 'Bitter';
@@ -23,7 +24,7 @@ body{
 }
 
 a{
-  color:#235e13;
+  color: var(--jfGreen);
   text-decoration: none;
 }
 
@@ -38,7 +39,7 @@ h2{
   margin: 0px;
   font-size: 1.5em;
   font-weight: normal;
-  color: #235e13;
+  color: var(--jfGreen);
 }
 
 p{
@@ -83,7 +84,7 @@ li{
 
 .navbutton:hover,.navbutton-current:hover{
   color:#ffffff;
-  background: #235e13;
+  background: var(--jfGreen);
   outline: 3px solid #ffffff;
 }
 
@@ -95,12 +96,12 @@ div.header{
 }
 
 .headerbar{
-  background: #235e13;
+  background: var(--jfGreen);
   height: 8pt;
 }
 
 .separator{
-  background: #235e13;
+  background: var(--jfGreen);
   height: 2pt;
   margin-bottom: 35px;
 }
@@ -117,11 +118,11 @@ div.header{
 
 .conterstyleEmph1{
   background: #f0f0f0;
-  color: #235e13;
+  color: var(--jfGreen);
 }
 
 .contentstyleEmph2{
-  background: #235e13;
+  background: var(--jfGreen);
   color: #ffffff;
 }
 
