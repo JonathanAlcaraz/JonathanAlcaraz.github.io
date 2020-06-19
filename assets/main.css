@@ -16,7 +16,7 @@ body{
 
 .title{
   padding: .5em 0pt;
-  font-size: 64pt;
+  font-size: 48pt;
   text-align: center;
   line-height: .9em;
   font-weight: normal;
@@ -146,7 +146,6 @@ div.header{
 .twocol{
   display: flex;
   flex: 50%;
-  min-width: 400px;
   vertical-align: text-top;
 }
 
