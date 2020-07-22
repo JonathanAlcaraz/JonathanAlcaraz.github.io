@@ -15,7 +15,7 @@ a, p, h1, h2, h3 {
   margin: 0;
   font-family: Bitter;
   line-height: 1.5em;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   color: var(--dark);
 }
 h1{
@@ -235,6 +235,49 @@ main .quote h3{
     border-radius: 15px;
   }
 }
+
+/* TEACHING */
+
+main .teaching-list {
+  width: 90%;
+  padding: 5px 5%;
+  max-width: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+main .teaching-list .separator {
+  background: var(--jfGreen);
+  width: 100%;
+  height: 5px;
+  margin: 0 auto 25px;
+}
+
+main .teaching-list .quarter {
+  width: 100%;
+  padding: 5px 0;
+}
+
+main .teaching-list .quarter ul{
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+main .teaching-list .quarter ul li {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-bottom: 15px;
+}
+
+main .teaching-list .quarter ul li b{
+  width: 100%;
+}
+
+/* FOOTER */
 
 footer {
   width: 100%;
