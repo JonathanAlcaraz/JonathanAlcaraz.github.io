@@ -150,6 +150,10 @@ main {
   margin: 0 auto;
 }
 
+main .simple {
+  padding: 15px;
+}
+
 /* HOME*/
 
 main .twocol {
