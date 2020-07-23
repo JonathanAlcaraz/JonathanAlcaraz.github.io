@@ -100,7 +100,7 @@ header .title {
   display: block;
   font-family: Bitter;
   font-size: 36pt;
-  line-height: .9em;
+  line-height: 1.1em;
   color: var(--dark);
   text-decoration: none;
   text-align: center;
@@ -125,6 +125,7 @@ header .bar{
   header .title {
     font-size: 48pt;
     padding-top: 40px;
+    line-height: .9em;
   }
   
   header .bar {
@@ -280,6 +281,23 @@ main .teaching-list .quarter ul li {
 main .teaching-list .quarter ul li b{
   width: 100%;
   margin: 0;
+}
+
+main .teaching-list .quarter ul li a{
+  color: var(--dark);
+  font-weight: bold;
+}
+
+main .teaching-list .quarter ul li a:hover{
+  color: var(--light);
+  font-weight: bold;
+}
+
+main .teaching-list .quarter ul li a:active{
+  color: var(--dark);
+  font-weight: bold;
+  text-decoration: underline;
+  background: none;
 }
 
 main .teaching-list .quarter ul li i{
