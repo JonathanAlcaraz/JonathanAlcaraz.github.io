@@ -35,11 +35,11 @@ a{
   text-decoration: none;
   color: var(--jfGreen);
 }
-a:hover{
+a:active{
   color: var(--dark);
   text-decoration: underline;
 }
-a:active{
+a:hover{
   background: var(--jfGreen);
   color:white;
   text-decoration: none;
