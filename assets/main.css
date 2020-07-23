@@ -103,7 +103,10 @@ header .title {
   color: var(--dark);
   text-decoration: none;
   text-align: center;
-  padding: 20px 0;
+  width: 98%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px 1%;
   margin-top: 45px;
 }
 
