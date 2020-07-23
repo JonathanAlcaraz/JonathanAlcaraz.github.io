@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: Bitter;
   background-color: var(--light);
   margin: 0px;
   padding: 0px;
@@ -284,6 +285,23 @@ main .teaching-list .quarter ul li b{
 main .teaching-list .quarter ul li i{
   width: 100%;
   margin:0;
+}
+
+/* TOP QUAL PREP */
+
+main .survey{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+main .survey iframe {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+  border-width: 0px;
+  height: 2960px;
+  border-radius: 15px;
 }
 
 /* FOOTER */
