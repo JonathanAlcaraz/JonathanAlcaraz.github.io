@@ -1,0 +1,76 @@
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+main .coordinates {
+  width: 90%;
+  max-width: 1024px;
+}
+
+main h2 {
+  width: 90%;
+}
+
+main h3{
+  margin: 0;
+}
+
+main h4{
+  margin: 0;
+}
+
+main .course-material {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  width: 90%;
+  max-width: 1024px;
+}
+
+main .course-material .part {
+  padding: 10px 0;
+  width: 100%;
+}
+
+main .course-material .part ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main .course-material .part ul li {
+  line-height: 1.5em;
+}
+
+main .separator {
+  background: var(--jfGreen);
+  width: 90%;
+  max-width: 1024px;
+  height: 5px;
+  margin: 0 0 25px;
+}
+
+main .feed {
+  width: 90%;
+  max-width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .feed .meeting {
+  padding: 0 0 10px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  main .course-material {
+    flex-wrap: nowrap;
+    padding: 0 0 20px;
+  }
+  main .feed .meeting {
+    width: 50%;
+  }
+}
