@@ -21,6 +21,10 @@ main h4{
   margin: 0;
 }
 
+main .useful-links {
+  width: 90%;
+}
+
 main .course-material {
   display: flex;
   flex-wrap: wrap;
@@ -65,12 +69,21 @@ main .feed .meeting {
   width: 100%;
 }
 
+main .feed .meeting p{
+  margin: 0;
+}
+
+main .feed .meeting a{
+  margin-bottom: 10px;
+}
+
 @media screen and (min-width: 768px) {
   main .course-material {
     flex-wrap: nowrap;
     padding: 0 0 20px;
   }
   main .feed .meeting {
-    width: 50%;
+    width: 48%;
+    padding: 1%;
   }
 }
