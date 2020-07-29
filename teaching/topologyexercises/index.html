@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <title>Topology Exercises | Jonathan Alcaraz</title>
+  <base href="../..">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A proffesional and academic website for Jonathan Alcaraz">
+  <link rel="shortcut icon" type="image/png" href="assets/favi.png"/>
+  <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/main.css"/>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href=".">Home</a>
+      <a href="research">Research</a>
+      <a href="teaching">Teaching</a>
+    </nav>
+    <div class="title">Topology Exercise List</div>
+    <div class="bar">
+    </div>
+  </header>
+  
+  <main>
+    <div class="onecol">
+      <h2>Point-Set Topology</h2>
+      <ol>
+        <li>Let \(X\) be a compact space and \(C\subseteq X\) a closed subset. Prove that \(C\) is compact.</li>
+        <li>Let \(X\) be a topological space. Prove that all singletons \(\{x\}\subseteq X\) are closed if and only if \(X\) is \(T_1\). Recall that \(X\) is \(T_1\) if for any distinct \(x\neq y\) in \(X\), there exist open sets \(U_x\) and \(U_y\) such that \(x\in U_x\), \(y\in U_y\), \(y\not\in U_x\), and \(x\not\in U_y\).</li>
+        <li>Suppose \(\{A,B\}\) form a separation of a topological space \(X\). If \(Y\) is a connected subset of \(X\), prove that either \(Y\subseteq A\) or \(X\subseteq B\).</li>
+        <li>Let \(X\) be a connected space and \(f\colon X\to Y\) be a continuous map. Prove that \(f(X)\) is connected.</li>
+        <li>Prove that if \(X\) is connected and locally path connected, then \(X\) is path connected.</li>
+        <li>Let \((X,d)\) be a metric space. Prove that the metric \(d\colon X\times X \to X\) is continuous with respect to the product topology on \(X\times X\) of the metric topology on \(X\).</li>
+        <li>Let \(X\) be a topological space. Prove that \(X\) is Hausdorff if and only if \(\Delta = \{(x,x)\} \subseteq X\times X\) is closed.</li>
+        <li>Let \(p\colon E\to B\) be a covering map where \(E\) and \(B\) are connected. Prove the following statements:
+        <ol>
+          <li>If \(E\) is compact, then \(B\) is compact.</li>
+          <li>If \(|p^{-1}(b_0)|=k\) for some \(b_0\in B\), then \(|p^{-1}(b)|=k\) for all \(b\in B\).</li>
+          <li>If \(B\) is compact and \(p^{-1}(b)\) is finite for some \(b\in B\), then \(E\) is compact.</li>
+          <li>If \(E\) is compact, then \( p^{-1}(b) \) is finite for all \(b\in B\).</li>
+        </ol>
+        </li>
+      </ol>
+      <h2>Algebraic Topology</h2>
+      <ol>
+        <li>Let \(X\) and \(Y\) be path connected and semi-locally simply connected.
+        <ol>
+          <li>Prove that \( \pi_1(X\times Y) \cong \pi_1(X) \oplus \pi_1(Y) \).</li>
+          <li>Prove that \( \pi_1(X\wedge Y) \cong \pi_1(X) * \pi_1(Y) \).</li>
+        </ol>
+        </li>
+        <li>If \(K\) is a simplicial complex and \(p\colon L \to K\) is a \(n\)-sheeted cover of \(K\) by a simplicial complex \(L\), then \(|\Delta_k(L)| = n\cdot |\Delta_k(K)|\). In particular, \(\chi(L)= n\cdot \chi(K) \).</li>
+        <li>Let \(X\) be a connected graph and \(x\in X\).
+        <ol>
+          <li>If \(x\) is not a vertex, then \(H_1(X,X\backslash\{x\}) \cong \mathbb{Z}\)</li>
+          <li>If \(x\) is a vertex, then \(H_1(X,X\backslash\{x\}) \cong \mathbb{Z}^n\) where \(n\) is the degree of the vertex \(x\).</li>
+        </ol>
+        </li>
+        <li>Let \(G_1\) and \(G_2\) be connected graphs. \(G_1\) and \(G_2\) are homeomorphic as topological spaces if and only if the number of valence \(k\) vertices in \(G_1\) is equal to the number of valence \(k\) vertices in \(G_2\) for all \(k\geq 3\).</li>
+        <li>Let \(p\colon E\to B\) be a finitely sheeted path connected cover of \(B\). Prove that
+        \[
+          |p^{-1}(b)| = [ \pi_1(B) : p_* \pi_1(E) ]
+        \]
+        </li>
+      </ol>
+      <h2>Differential Topology</h2>
+      <ol>
+        <li>Let \(M\) be a manifold. Prove that for any \(p\in M\), there are charts
+        <ol>
+          <li>\((U_0,\phi_0)\) such that \(\phi_0(U_0) = B_r( \phi_0(p) )\subseteq \mathbb{R}^n\) for some \(r>0\).</li>
+          <li>\((U_1, \phi_1)\) such that \(\phi_1(p)=0\) and \(\phi_1(U_1)=B_1(0)\).</li>
+          <li>\((U_2, \phi_2)\) such that \(\phi_2(p)=0\) and \(\phi_2(U_2)=\mathbb{R}^n\).</li>
+        </ol>
+        </li>
+        <li>Prove that every manifold is locally path connected. Further, deduce that any connected manifold is path connected.</li>
+        <li>Prove that every manifold admits a basis of charts.</li>
+      </ol>
+    </div>
+  </main>  
+
+  <footer>
+    <a href="https://github.com/JonathanAlcaraz/JonathanAlcaraz.github.io">GitHub repo</a> 
+    <p class="spacer">|</p>
+    <p>&copy; <script>document.write( new Date().getFullYear() );</script> Jonathan Alcaraz</p>
+    <p class="spacer">|</p>
+    <p class="license-text">Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode">CC BY-NC 4.0</a></p>
+  </footer>
+</body>
