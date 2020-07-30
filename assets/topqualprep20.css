@@ -22,7 +22,18 @@ main h4{
 }
 
 main .useful-links {
-  width: 90%;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+main .useful-links a {
+  margin: 0;
+  padding: 10px;
+  line-height: 1em;
+  text-align: center;
 }
 
 main .course-material {
@@ -77,7 +88,7 @@ main .feed .meeting a{
   margin-bottom: 10px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 568px) {
   main .course-material {
     flex-wrap: nowrap;
     padding: 0 0 20px;

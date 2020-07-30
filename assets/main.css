@@ -380,6 +380,11 @@ footer .spacer {
   header nav {
     display: none;
   }
+  main .onecol {
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+  }
   footer {
     display: none;
   }
