@@ -45,6 +45,10 @@ main .course-material {
   max-width: 1024px;
 }
 
+main .course-material h2{
+  width: 100%;
+}
+
 main .course-material .part {
   padding: 10px 0;
   width: 100%;
@@ -88,10 +92,38 @@ main .feed .meeting a{
   margin-bottom: 10px;
 }
 
+main .feed .exam {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 10%;
+  border-radius: 20px;
+  background: var(--jfGreen);
+  color: var(--light);
+}
+
+main .feed .exam a, main .feed .exam p{
+  color: var(--light);
+  width: 100%;
+  text-align: center;
+}
+
+main .feed .exam a{
+  font-size: 18pt;
+}
+
+main .feed .exam a:hover{
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 568px) {
   main .course-material {
-    flex-wrap: nowrap;
     padding: 0 0 20px;
+  }
+  main .course-material .part{
+    width: 30%;
+    padding: 10px 3.3% 0 0;
   }
   main .feed .meeting {
     width: 48%;
