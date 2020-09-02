@@ -229,12 +229,12 @@ main .twocol .about{
 }
 
 main .quote{
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  padding: 15px 0;
+  padding: 15px 5%;
   background: var(--jfGreen);
 }
 
