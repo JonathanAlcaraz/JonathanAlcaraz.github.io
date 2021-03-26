@@ -21,19 +21,19 @@ a, p, h1, h2, h3, h4, b, i{
   color: var(--dark);
 }
 h1{
-  font-size: 24pt;
+  font-size: 36pt;
   font-weight: 800;
   color var(--dark);
 }
 h2{
-  font-size: 18pt;
+  font-size: 24pt;
   font-weight: 400;
   color: var(--jfGreen);
   font-weight: normal;
 }
 h3{
   font-weight: 600;
-  font-size: 14pt;
+  font-size: 18pt;
 }
 h4{
   font-size: 10pt;
@@ -373,7 +373,7 @@ footer .spacer {
   display: none;
 }
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 550px){
   footer {
     flex-direction: row;
   }
