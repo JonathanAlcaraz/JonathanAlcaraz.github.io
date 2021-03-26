@@ -189,6 +189,12 @@ main .simple {
   padding: 15px;
 }
 
+main .onecol {
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto
+}
+
 /* HOME*/
 
 main .twocol {
@@ -333,29 +339,6 @@ main .teaching-list .quarter ul li a:active{
 main .teaching-list .quarter ul li i{
   width: 100%;
   margin:0;
-}
-
-/* TOP QUAL PREP */
-
-main .survey{
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-}
-
-main .survey iframe {
-  width: 100%;
-  max-width: 550px;
-  margin: 0 auto;
-  border-width: 0px;
-  height: 2960px;
-  border-radius: 15px;
-}
-
-main .onecol {
-  width: 90%;
-  max-width: 700px;
-  margin: 0 auto
 }
 
 /* FOOTER */
