@@ -179,20 +179,20 @@ header .bar{
 }
 
 main {
-  display: block;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
   width: 100%;
-  max-width: 1024px;
-  margin: 0 auto;
 }
 
-main .simple {
-  padding: 15px;
-}
-
-main .onecol {
+main section {
   width: 90%;
+  max-width: 1024px;
+  padding: 5px 0;
+}
+
+main section.narrow {
   max-width: 700px;
-  margin: 0 auto
 }
 
 /* HOME*/
@@ -280,10 +280,7 @@ main .quote h3{
 /* TEACHING */
 
 main .teaching-list {
-  width: 90%;
-  padding: 5px 5%;
   max-width: 450px;
-  margin: 0 auto;
   display: flex;
   flex-flow: row wrap;
 }
