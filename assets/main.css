@@ -236,11 +236,14 @@ main .twocol .image .links{
   display: flex;
   justify-content: center;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 main .twocol .image .links a {
   padding: 10px;
   margin: 1px 4px;
+  min-width: 65px;
+  text-align: center;
 }
 
 main .twocol .about{
